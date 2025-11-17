@@ -1,0 +1,42 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# C# files
+[*.cs]
+indent_size = 4
+# Common .NET code style preferences
+csharp_prefer_braces = true:suggestion
+csharp_new_line_before_open_brace = all
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_var_elsewhere = true:suggestion
+
+# .NET project/solution and XML
+[*.{csproj,props,targets,sln,xml,config}]
+indent_size = 2
+
+# Web / Frontend
+[*.{js,jsx,ts,tsx,vue}]
+indent_size = 2
+quote_type = single
+curly_bracket_next_line = false
+
+# JSON
+[*.json]
+indent_size = 2
+
+# Styles & markup
+[*.{scss,css,less,html,cshtml}]
+indent_size = 2
+
+# Markdown: keep trailing spaces used for soft breaks
+[*.md]
+trim_trailing_whitespace = false
+indent_size = 2
