@@ -1,0 +1,2 @@
+# Ignore Node dependencies across all packages
+**/node_modules/
