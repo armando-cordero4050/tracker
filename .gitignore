@@ -1,6 +1,11 @@
 # Ignore Node dependencies across all packages
 **/node_modules/
 
+# Large archives (design files, templates)
+**/design-files/**/*.zip
+**/html-version/**/*.zip
+*.fig.zip
+
 # Build outputs (web)
 **/dist/
 **/build/
