@@ -1,2 +1,47 @@
 # Ignore Node dependencies across all packages
 **/node_modules/
+
+# Build outputs (web)
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/.vite/
+
+# Caches and tooling
+**/.turbo/
+**/.parcel-cache/
+**/.eslintcache
+**/.cache/
+
+# Test coverage
+**/coverage/
+**/.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+
+# .NET build artifacts
+**/bin/
+**/obj/
+**/.vs/
+
+# Editors/OS
+.DS_Store
+Thumbs.db
+
+# IDE configs (optional to track, ignore by default)
+**/.idea/
+**/.vscode/
+
+# Ignore Node dependencies across all packages
+**/node_modules/
